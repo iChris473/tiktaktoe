@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./style.js"></script>
+    <title>tiktaktoe</title>
+</head>
+<body class="bg-gray-50">
+    <div class="absolute border shadow bg-white top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-50">
+        <div class="bg-gray-200 h-24">
+            <button id="myBtn" class="text-sm text-center font-bold mt-3 rounded-md p-2 bg-gray-100 ml-20">click to pick a random number</button>
+            <p id="info" class="hidden">start again?</p>
+        </div>
+        <table class="table-fixed w-72 sm:w-96 h-96">
+            <tbody>
+              <tr class="text-center border-b-2">
+                <td id="number" class="cursor-pointer hover:bg-gray-200 hover:opacity-40">1</td>
+                <td id="number" class="cursor-pointer hover:bg-gray-200 hover:opacity-40">2</td>
+                <td id="number" class="cursor-pointer hover:bg-gray-200 hover:opacity-40">3</td>
+              </tr>
+              <tr class="text-center border-b-2">
+                <td id="number" class="cursor-pointer hover:bg-gray-200 hover:opacity-40">4</td>
+                <td id="number" class="cursor-pointer hover:bg-gray-200 hover:opacity-40">5</td>
+                <td id="number" class="cursor-pointer hover:bg-gray-200 hover:opacity-40">6</td>
+              </tr>
+              <tr class="text-center border-b-2">
+                <td id="number" class="cursor-pointer hover:bg-gray-200 hover:opacity-40">7</td>
+                <td id="number" class="cursor-pointer hover:bg-gray-200 hover:opacity-40">8</td>
+                <td id="number" class="cursor-pointer hover:bg-gray-200 hover:opacity-40">9</td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
